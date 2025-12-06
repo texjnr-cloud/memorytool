@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "memorytool",
+    "slug": "memorytool",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow memorytool to access your camera"
+        }
+      ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "supportsTabletMode": true
+    }
+  }
+}
+```
+
+Save it.
+
+### 3d. Create `.env`
+
+Right-click → **New File** → name it `.env`
+
+Add this:
+```
+ANTHROPIC_API_KEY=sk-ant-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
