@@ -22,21 +22,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "ios": {
       "supportsTabletMode": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3abd8a8f-4b16-4fa5-8898-33d219cdc95e"
+      }
     }
   }
 }
-```
-
-Save it.
-
-### 3d. Create `.env`
-
-Right-click → **New File** → name it `.env`
-
-Add this:
-```
-ANTHROPIC_API_KEY=sk-ant-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
